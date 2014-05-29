@@ -1,0 +1,21 @@
+{
+  "name": "bryglen/yii2-aws",
+  "description": "wrapper for yii aws ",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension", "aws", "php"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bryan Jayson Tan",
+      "email": "bryantan16@gmail.com"
+    }
+  ],
+  "require": {
+    "aws/aws-sdk-php": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "bryglen\\aws\\": ""
+    }
+  }
+}
